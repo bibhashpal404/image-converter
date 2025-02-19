@@ -75,7 +75,7 @@ app.use(convertRouter);
     await setupVite(app, server);
   }
 
-  const PORT = Number(process.env.PORT) || 5000;
+  const PORT = Number(process.env.PORT) || 5432;
   server.listen(PORT, "0.0.0.0", () => {
     log(`Server running on port ${PORT} (0.0.0.0)`);
   });
