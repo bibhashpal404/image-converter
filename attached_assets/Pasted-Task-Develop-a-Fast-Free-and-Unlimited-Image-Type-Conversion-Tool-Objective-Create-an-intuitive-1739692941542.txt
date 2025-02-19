@@ -1,0 +1,64 @@
+Task: Develop a Fast, Free, and Unlimited Image Type Conversion Tool
+
+Objective:
+Create an intuitive, user-appealing online tool for converting between various image formats quickly and efficiently, with no limitations on usage.
+
+Key Features:
+
+Image Conversion:
+Supported Formats: 
+Input: JPEG, PNG, GIF, BMP, TIFF, SVG, WebP
+Output: JPEG, PNG, GIF, BMP, TIFF, WebP
+Batch Conversion: Allow users to convert multiple images at once.
+User Interface (UI):
+Drag and Drop: Implement an easy drag-and-drop interface for uploading images.
+Responsive Design: Ensure the tool looks and functions well on all devices (desktop, tablet, mobile).
+Real-time Preview: Show a preview of the converted image before final download.
+Progress Indicators: Display progress bars for uploads and conversions.
+Performance:
+Speed: Optimize for fast conversion times, especially for bulk operations.
+Server-side Processing: Handle conversions on the server to not overload client machines.
+Caching: Implement caching mechanisms to speed up repeat conversions.
+Interactivity:
+Customization Options: 
+Quality settings for output (e.g., compression levels for JPEG).
+Resize options before conversion.
+Option to change image dimensions while maintaining aspect ratio.
+Interactive Elements: 
+Tooltips for each conversion option explaining what it does.
+Animated feedback for actions like successful upload or conversion.
+Usability:
+No Sign-Up Needed: Allow users to use the tool without registration.
+Download Management: Offer choices for download (single file, zip for multiple files).
+Error Handling: Clear, user-friendly error messages for incorrect inputs or conversion issues.
+Accessibility:
+Keyboard Navigation: Ensure all functionalities are accessible via keyboard for better usability.
+Screen Reader Compatibility: Design with screen readers in mind to aid visually impaired users.
+Security:
+Image Privacy: Ensure images are deleted from the server after conversion or upon user logout.
+No Tracking: Avoid using cookies or tracking unless necessary for functionality.
+Legal and Compliance:
+Terms of Use: Clearly state terms regarding usage limits, if any, and data handling.
+Privacy Policy: Include a policy explaining how images are handled.
+
+Technical Requirements:
+Backend: Use a scalable server-side language like Node.js, Python, or Go for image processing.
+Frontend: Modern JavaScript framework (React, Vue, Angular) for dynamic UI.
+Image Processing Libraries: Consider libraries like Sharp for Node.js, Pillow for Python.
+Deployment: Consider cloud services like AWS, Azure, or Google Cloud for deployment.
+
+Timeline: 
+Phase 1 (2 weeks): Wireframe and initial UI design, backend setup for basic conversion.
+Phase 2 (3 weeks): Implement all features, user testing, and optimization.
+Phase 3 (1 week): Final testing, bug fixes, and deployment.
+
+Deliverables:
+Fully functional, deployed web application.
+Documentation for users on how to use the tool.
+Developer documentation for future maintenance or enhancements.
+
+Notes:
+Prioritize user experience in design and functionality.
+Ensure the tool remains free and unlimited for public use.
+
+Please confirm receipt of this task and provide any initial feedback or questions you might have regarding the project scope or timeline.
